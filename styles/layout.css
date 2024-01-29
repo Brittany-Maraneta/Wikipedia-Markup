@@ -1,0 +1,14 @@
+body {
+  background-color: beige;
+}
+
+div {
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+ul.square {
+  list-style-type: square;
+}

@@ -1,0 +1,30 @@
+#heading {
+  font-size: 50px;
+}
+
+body {
+  margin: 50px;
+}
+
+h1 {
+  text-align: center;
+  border-left: 15px solid pink;
+  border-right: 15px solid pink;
+}
+
+p.thicker {
+  font-weight: 900;
+}
+
+h2 {
+  max-width: 200px;
+  height: 50px;
+  background-color: pink;
+  text-align: center;
+
+  margin: auto;
+}
+
+.first-p {
+  font-style: italic;
+}

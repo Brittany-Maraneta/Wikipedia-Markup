@@ -1,19 +1,10 @@
 body {
   background-color: beige;
+  margin: 50px;
 }
 
 #heading {
   font-size: 50px;
-}
-
-body {
-  margin: 50px;
-}
-
-h1 {
-  text-align: center;
-  border-left: 15px solid pink;
-  border-right: 15px solid pink;
 }
 
 div {
@@ -32,7 +23,6 @@ h2 {
   height: 50px;
   background-color: pink;
   text-align: center;
-
   margin: auto;
 }
 
@@ -42,4 +32,31 @@ h2 {
 
 ul.square {
   list-style-type: square;
+}
+
+@media screen and (min-width: 810px) {
+  body {
+    background-color: lightpink;
+  }
+  h2 {
+    display: none;
+  }
+  body {
+    margin: 50px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    background-color: beige;
+    margin: 50px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  h1 {
+    text-align: center;
+    border-left: 15px solid pink;
+    border-right: 15px solid pink;
+  }
 }
